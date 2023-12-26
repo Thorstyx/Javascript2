@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.light.css">
+</head>
+<body>
+    <header>
+        <h1>
+            EVE ONLINE
+        </h1>
+        
+        <div id="logo"> <!--balise navigation logo EVE-->
+            <a href="index.html"> <img src="C:\Users\naimm\OneDrive - De Vinci\A1\Prog\cours html\images\EVE_Online-logo-A68F5C2E9D-seeklogo.com.png" alt="image avec le logo EvE"></a>
+        </div>
+    </header>
+    <nav>
+        <div class = "burger-icon" id="burger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <ul class="menu" id="menu">
+            <li><a href="index.html">acceuil</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Eve_Online">à propos</a></li>
+            <li><a href="formulaire.html">Contact</a></li>
+        </ul>
+
+        
+        <button>dark mode</button>
+    </nav>
+    <main>
+        <h1>Formulaire</h1>
+        <div id="formulaire">
+            <form action=""> <!--annonce de créetion d'un Formulaireire -->
+                <label for="pseudo">Prénom</label> <!--lable : seert à donner un nom à input -->
+                <input type="text" id="pseudo"> <!--input : permet de crée la case-->
+                <label for="mail">Email</label>
+                <input type="email" id="mail">
+                <label for="mdp">Mot De Passe</label>
+                <input type="password" name="" id="mdp">
+                <input type="color">
+                <fieldset> <!-- fieldset : le cadre-->
+                    <legend>Select option</legend>
+                    <!---->
+                    <select name="" id="">
+                        <option value="France">France</option> <!-- important de remplir les value : pendant le controle du js il va rien récupérer sinon et fera forvement une errreur-->
+                        <option value="Islande">Islande</option>
+                        <option value="Canarie">Canarie</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Bouton radio</legend> <!--bouton radio : qu'en on cohe quelque chose l'autre se décochera, grâce au name -->
+                    <label for="f">Femme</label>
+                    <input type="radio" name="genre" id="f">
+                    <label for="h">Homme</label>
+                    <input type="radio" name="genre" id="h">
+                </fieldset>
+                <fieldset>
+                    <legend>Bouton checkbox</legend>
+                    <label for="po">Pomme</label>
+                    <input type="checkbox" name="" id="po">
+                    <label for="poi">Poire</label>
+                    <input type="checkbox" name="" id="poi">
+                    <label for="f">Fraise</label>
+                    <input type="checkbox" name="" id="f">
+                </fieldset>
+                <input type="reset">
+                <input type="submit" name="" id="bt">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            EVE Online is a free MMORPG sci-fi strategy game where you can embark on your own unique space adventure. EVE's open world MMORPG sandbox, renowned among online space games, lets you choose your own path and engage in combat, exploration, industry and much more. Play the world's #1 space MMO today!
+        </p>
+        <a href="https://pegi.info" id="PEGI">
+            <img src="C:\Users\naimm\OneDrive - De Vinci\A1\Prog\cours html\images\pegiinfo.png" alt="image EvE">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

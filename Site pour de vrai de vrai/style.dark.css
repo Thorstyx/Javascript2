@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1f1b24;
+}
+
+header{
+    background-color: #302a38;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+#logo{
+    /*petit ajustement pour compenser le symbole trademark*/
+    margin-left: 25px;
+}
+
+nav{
+    display: flex;
+    border-top: 24px solid #1f1b24;
+    background-color: #302a38;
+    width: auto;
+    justify-content: space-around;
+}
+
+
+#img1{
+    width: 100%;
+}
+
+#img2{
+    width: 100%;
+}
+
+#img3{
+    width: 100%;
+}
+
+.divimage{
+    width: 10%;
+}
+
+footer{
+    display: flex;
+    border-top: 24px solid #1f1b24;
+    background-color: #302a38;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main{
+    border-top: 24px solid #1f1b24;
+    background-color: #302a38;
+    height: auto;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+}
+
+#mainparts{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.news{
+    display: flex;
+    background-color: #3f1d6846;
+    border-color: #1f1b24;
+    width: 50%;
+    height: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.newspage{
+    display: flex;
+    background-color: #3f1d6846;
+    border-color: #1f1b24;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+
+#imageEVE{
+    width: 50%;
+}
+
+.mainnews{
+    display: flex;
+    border-top: 24px solid #1f1b24;
+    background-color: #302a38;
+    height: 1500px;
+    margin-left: 45px;
+    margin-right: 45px;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#PEGI{
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        background-color: #9346f1;
+    }
+    .news{
+        background-color:rgb(55, 0, 255);
+    }
+    .newspage{
+        background-color:rgb(55, 0, 255);
+    }
+    img{
+        display: none;
+    }
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+}
+
+.burger-icon {
+    cursor: pointer; 
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: #010101;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu li {
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+    position: bottom;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+#burger{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #302a38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+}
